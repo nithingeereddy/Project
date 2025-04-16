@@ -1,0 +1,48 @@
+/* General Navbar Styles */
+.navbar {
+    background-color: #333; /* Dark gray background */
+    padding: 10px 20px;
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #f0f0f0; /* Light gray text */
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-list a:hover {
+    color: #fff; /* White color on hover */
+    background-color: #555; /* Lighter gray background */
+    padding: 5px 10px; /* Adds a little padding on hover */
+    border-radius: 5px;
+}
+.welcome-msg{
+    color: #f0f0f0;
+}
+
+
+/* Active Link styling (optional) */
+.nav-list a.active {
+    color: #ffcc00; /* Yellow color for active link */
+    font-weight: bold;
+}

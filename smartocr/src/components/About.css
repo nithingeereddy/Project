@@ -1,0 +1,109 @@
+/* About.css */
+
+/* General Page Styling */
+.about-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6;
+    padding: 24px;
+}
+
+/* About Card */
+.about-card {
+    max-width: 900px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .about-card {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+/* Logo Styling */
+.about-logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .about-logo {
+        margin-bottom: 0;
+        margin-right: 40px;
+    }
+}
+
+/* Text Content */
+.about-text {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .about-text {
+        text-align: left;
+    }
+}
+
+.about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #061330;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    font-size: 1.1rem;
+    color: #374151;
+    margin-bottom: 20px;
+}
+
+/* Features List */
+.about-features {
+    margin-top: 20px;
+}
+
+.about-features h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.about-features ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #374151;
+}
+
+.about-features li {
+    margin-bottom: 8px;
+}
+
+/* Button */
+.about-button {
+    display: inline-block;
+    background-color: #030d22;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-button:hover {
+    background-color: #505870;
+}
